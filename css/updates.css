@@ -1,0 +1,47 @@
+div aside{
+    width: 120px;
+    padding:30px 0 0 40px;
+}
+
+.updates{
+	border-top: solid #2BB4F1 5px;
+	border-bottom: solid #2BB4F1 5px;
+}
+
+.update-points{
+	padding-bottom: 30px;
+	line-height: 50px;
+	text-align: center;
+	border-left: dotted #2BB4F1 5px;
+	border-right: dotted #2BB4F1 5px;
+	padding-right: 40px;
+	font: 50px;
+	font-color:black;
+	float:left;
+	border-bottom: dotted #2BB4F1 5px;
+	border-top: dotted #2BB4F1 5px;
+}
+
+.update-points:hover {
+	background-color:#f2f2f2;
+}
+
+.imgcontainer {
+	width:20px;
+	align-content: center;
+}
+
+.mainarticle{
+    margin: 40px 150px 160px 120px;
+    width: 950px;
+    padding: 40px 40px 50px 160px;
+    color:#444444;
+    font-family: "Georgia";
+    font-size: 13px;
+    line-height: 18px;
+    text-emphasis: justify;
+}
+
+.mainarticle a:hover {
+    color:#444444;
+}
