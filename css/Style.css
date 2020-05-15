@@ -184,14 +184,17 @@ main .site-title{
     background: url('../assets/662201.jpg');
     background-size: cover;
     height: 110vh;
+    width: 100%;
     display: flex;
     justify-content: center;
+    align-self: center;
 }
 
 main .site-title .site-background{
     padding-top: 10rem;
     text-align: center;
     color: var(--white);
+    width: 100%;
 }
 
 main .site-title h1, h3{

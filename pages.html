@@ -7,6 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pages</title>
 
+    <script type="text/javascript" src="./js/Jquery3.4.1.min.js"></script>
+
+    <script type="text/javascript">
+        
+        $("document").ready(function(){
+
+            $(".column").hover(highlightCopy);
+
+            function highlightCopy(){
+
+                $(this).toggleClass("highlight");
+            };
+
+
+        });
+
+    </script>
+
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="./css/all.css">
 
@@ -20,7 +38,12 @@
     <!-- Custom Style   -->
     <link rel="stylesheet" href="./css/Style.css">
 
+    <!-- PAGES STYLE -->
+    <link rel="stylesheet" href="./css/pages.css">
+
 </head>
+
+    <!--------------- NAVIGATION SECTION ---------------->
 
     <body>
         <nav class="nav">
@@ -49,7 +72,7 @@
                         <a href="./login.html">Login</a>
                     </li>
                      <li class="nav-link">
-                        <a href="./signup.html">Signup</a>
+                        <a href="./faculty.html">Faculty</a>
                     </li>
                     <li class="nav-link">
                         <a href="./contact.html">Contact Us</a>
@@ -67,6 +90,48 @@
             </div>
         </div>
         </nav>
+
+
+        <!----------- PAGES MAIN SECTION ------------>
+
+
+        <div class="shayari-section">
+            <h1>Shayari</h1>
+        </div>
+
+        <div class="row">
+                <div class="column">
+                    <div class="shayari">
+                        <div class="shayari-container">
+                            <img src="./images/shayari-1.png" width="100%">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="shayari">
+                        <div class="shayari-container">
+                            <img src="./images/shayari-2.png" width="100%">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="shayari">
+                        <div class="shayari-container">
+                            <img src="./images/shayari-3.png" width="100%">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="shayari">
+                        <div class="shayari-container">
+                            <img src="./images/shayari-4.png" width="100%">
+                        </div>
+                    </div>
+                </div>
+        </div>
 
         <!----------- FOOTER SECTION ------------>
 

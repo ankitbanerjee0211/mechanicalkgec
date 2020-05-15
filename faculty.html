@@ -5,7 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Category</title>
+    <title>Pages</title>
+
+    <script type="text/javascript" src="./js/Jquery3.4.1.min.js"></script>
+
+    <script type="text/javascript">
+        
+        $("document").ready(function(){
+
+            $(".column").hover(highlightCopy);
+
+            function highlightCopy(){
+
+                $(this).toggleClass("highlight");
+            };
+
+
+        });
+
+    </script>
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="./css/all.css">
@@ -20,7 +38,12 @@
     <!-- Custom Style   -->
     <link rel="stylesheet" href="./css/Style.css">
 
+    <!-- PAGES STYLE -->
+    <link rel="stylesheet" href="./css/pages.css">
+
 </head>
+
+    <!--------------- NAVIGATION SECTION ---------------->
 
     <body>
         <nav class="nav">
@@ -39,7 +62,7 @@
                         <a href="./index.html">Home</a>
                     </li>
                     <li class="nav-link">
-                        <a href="./category.html">Category</a>
+                        <a href="./updates.html">Updates</a>
                     </li>
                    
                     <li class="nav-link">
@@ -60,15 +83,29 @@
                 </ul>
             </div>
             <div class="social text-gray">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+                  <a href="https://www.facebook.com/Mechanical-Kgec-19-23-105287827831792/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/kgec_mechanical/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/MKgec/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCSULEtQ0j-y7XKf1N-DsJcg"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
         </nav>
 
-        <!------------- FOOTER SECTION -------------->
+        <!----------- FACULTY MAIN SECTION ------------>
+
+        
+
+
+
+
+
+
+
+
+
+        
+
+        <!----------- FOOTER SECTION ------------>
 
         <footer class="footer">
             <div class="container">
@@ -91,10 +128,10 @@
                 <div class="follow" data-aos="fade-left" data-aos-delay="200">
                     <h2>Follow us on</h2>
                     <div>
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-youtube"></i>
+                         <a href="https://www.facebook.com/Mechanical-Kgec-19-23-105287827831792/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/kgec_mechanical/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/MKgec/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCSULEtQ0j-y7XKf1N-DsJcg"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
